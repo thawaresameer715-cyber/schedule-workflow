@@ -3,7 +3,7 @@ name: Schedule Job
 on:
   workflow_dispatch:
   schedule:
-    - cron: "56 12 * * *"
+    - cron: "16 13 * * *"
 
 jobs:
   run-script:
@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Print Message
-        run: echo "Workflow executed at 6:26 PM IST"
+        run: echo "Workflow executed at 6:46 PM IST"
