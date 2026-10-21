@@ -2,7 +2,7 @@ name: Schedule Job
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "56 12 * * *"
 
 jobs:
   run-script:
@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Print Message
-        run: echo "Schedule Workflow Executed"
+        run: echo "Workflow executed at 6:26 PM IST"
