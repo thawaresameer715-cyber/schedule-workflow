@@ -3,7 +3,7 @@ name: schedule job007
 on:
  workflow_dispatch:
  schedule:
-   - cron: "0 0 * * *" # minute, hour, date, month, week UTC, IST
+   - cron: "0 0 * * *" # minute, hour, date, month, week UTC<--IST
 
 jobs:
   run-script:
